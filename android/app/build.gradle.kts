@@ -22,6 +22,10 @@ android {
     }
 }
 
+ksp {
+    arg("me.tatarka.inject.dumpGraph", "true")
+}
+
 
 dependencies {
     implementation(projects.xplat.lib.carve)
